@@ -13,7 +13,7 @@ env:
   global:
     - ANDROID_BUILD_TOOL_VERSION=26.0.2
     - ANDROID_COMPILE_SDK_VERSION=23
-    - ANDROID_TARGET_SDK_VERSION=23
+    - ANDROID_TARGET_SDK_VERSION=22
 notifications:
   email: false
   webhooks: "https://zapier.com/hooks/catch/opzg6m/"
@@ -31,7 +31,7 @@ android:
     - extra-android-support
     - extra-google-m2repository
     - extra-android-m2repository
-    - android-23
+    - android-22
     # emulator(s)
     - sys-img-armeabi-v7a-android-21
 
